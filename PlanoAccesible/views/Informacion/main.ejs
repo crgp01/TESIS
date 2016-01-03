@@ -1,0 +1,14 @@
+<div class="col-sm-4">
+    <ul id="menu-ul">
+        <li><a href="/Informacion/main/1" id="info1" class="menu-li" tabindex="3">Consejo FIS</a></li>
+        <li><a href="/Informacion/main/2" id="info2" class="menu-li" tabindex="4">Docentes</a></li>
+    </ul>
+</div>
+
+<div class="col-sm-4">
+    <% if (menu == 1) { %>
+        <%- partial('../Informacion/consejoFis.ejs') %>
+            <% } if (menu == 2) { %>
+                <%- partial('../Informacion/docentes.ejs') %>
+                    <% } %>
+</div>

@@ -1,0 +1,65 @@
+.texto {
+    font-size: 0.55em;
+    font-family: Verdana;
+}
+
+#contenedor {
+    background-color: currentColor;
+    width: 30%;
+    height: 50%;
+}
+
+.oficinasB {
+    fill: #c8c79b;
+    stroke: white;
+    stroke-width: 2;
+}
+
+
+/*Baños*/
+
+#BañoMujeres {
+    fill: darksalmon;
+    background-color: beige;
+    stroke: white;
+    stroke-width: 2;
+}
+
+#BañoHombres {
+    fill: cornflowerblue;
+    stroke: white;
+    stroke-width: 2;
+}
+
+
+/*Biblioteca*/
+
+.lectura {
+    fill: #6b829b;
+    stroke: white;
+    stroke-width: 2;
+}
+
+
+/*Oficinas A*/
+
+.oficinasA {
+    fill: #9b876c;
+    stroke: white;
+    stroke-width: 2;
+}
+
+
+/*Rectorado*/
+
+.rectorado {
+    fill: #a486ad;
+    stroke: white;
+    stroke-width: 2;
+}
+
+#svgSeleccionado {
+    fill: chartreuse;
+    stroke: white;
+    stroke-width: 2;
+}

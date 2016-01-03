@@ -1,0 +1,23 @@
+<div>
+    <div class="divtamaniomap col-sm-9 offset3 span6">
+        <%- partial("../Mapas/plano.ejs") %>
+    </div>
+
+    <div class="col-sm-3 colordescripcionmapa">
+        <div>
+            <h3><%- titulooficina %></h3>
+        </div>
+
+        <div>
+            <%- datosvista %>
+        </div>
+    </div>
+</div>
+
+<script>
+    var datosoficina = '<%= idsvgplano %>';
+    if (datosoficina.length > 0) {
+        var svgobject = $("#10");
+        alert(datosoficina);
+    }
+</script>

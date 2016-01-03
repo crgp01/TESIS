@@ -1,0 +1,33 @@
+.fondo-menu {
+    background-color: cadetblue;
+}
+
+.texto-menu {
+    color: white;
+    font-size: 1.1em;
+}
+
+.leyenda {
+    padding-top: 15px;
+    font-size: 1.2em;
+}
+
+.div-inicio {
+    padding-bottom: 40px;
+}
+
+.div-main-content-body {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.divtamaniomap {
+    min-height: 600px;
+    min-width: 700px;
+}
+
+.colordescripcionmapa {
+    background-color: #f4fcfb;
+}
