@@ -1,9 +1,20 @@
 <div>
-    <div class="divtamaniomap col-sm-9 offset3 span6">
-        <%- partial("../Mapas/plano.ejs") %>
+    <div class="divtamaniomap col-md-9 offset3 span6">
+        <div>
+            <select id="rutaspredefinidas">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+            </select>
+            <input type="button" value="mover">
+        </div>
+        <br>
+        <br>
+        <%- partial("../Mapas/plano.ejs", {idsvgplanovista: idsvgplano}) %>
     </div>
 
-    <div class="col-sm-3 colordescripcionmapa">
+    <div class="col-md-3 colordescripcionmapa">
         <div>
             <h3><%- titulooficina %></h3>
         </div>

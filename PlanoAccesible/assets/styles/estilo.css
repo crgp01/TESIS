@@ -21,11 +21,13 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    min-height: 400px;
 }
 
 .divtamaniomap {
     min-height: 600px;
     min-width: 700px;
+    padding-left: 80px;
 }
 
 .colordescripcionmapa {

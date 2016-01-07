@@ -58,7 +58,7 @@
     stroke-width: 2;
 }
 
-#svgSeleccionado {
+.svgSeleccionado {
     fill: chartreuse;
     stroke: white;
     stroke-width: 2;

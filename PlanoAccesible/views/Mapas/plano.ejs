@@ -30,37 +30,54 @@
     <a xlink:href="/Mapas/main/10">
         <g>
             <title>Denys Flores</title>
-            <path id="DenysFlores" class="oficinasB" d="M 1004.28,491.04
+            <% if(idsvgplanovista == "10") { %>
+                <path id="DenysFlores" class="svgSeleccionado" d="M 1004.28,491.04
                   C 1004.28,491.04 1004.28,584.37 1004.28,584.37
                   1004.28,584.37 912.64,584.28 912.64,584.28
                   912.64,584.28 912.64,491.11 912.64,491.11
                   912.64,491.11 1004.28,491.04 1004.28,491.04 Z
                   M 1040.00,471.09" role="img" addinfo="DenysFlores" />
-            <title>DenysFlores</title>
+                <% } else { %>
+                    <path id="DenysFlores" class="oficinasB" d="M 1004.28,491.04
+                  C 1004.28,491.04 1004.28,584.37 1004.28,584.37
+                  1004.28,584.37 912.64,584.28 912.64,584.28
+                  912.64,584.28 912.64,491.11 912.64,491.11
+                  912.64,491.11 1004.28,491.04 1004.28,491.04 Z
+                  M 1040.00,471.09" role="img" addinfo="DenysFlores" />
+                    <% } %>
+                        <title>DenysFlores</title>
 
-            <text class="texto poppuphelper" y="30" x="35" tabindex="10" addinfo="DenysFlores" titulo="Denys Flores">
-                <textPath xlink:href="#DenysFlores" startOffset="78%">
-                    Denys Flores
-                </textPath>
-            </text>
+                        <text class="texto poppuphelper" y="30" x="35" tabindex="10" addinfo="DenysFlores" titulo="Denys Flores">
+                            <textPath xlink:href="#DenysFlores" startOffset="78%">
+                                Denys Flores
+                            </textPath>
+                        </text>
 
-            <desc id="DenysFlores2"> Oficina de Denys Flores, dicta materias de Seguridad de la Información</desc>
+                        <desc id="DenysFlores2"> Oficina de Denys Flores, dicta materias de Seguridad de la Información</desc>
         </g>
     </a>
     <a xlink:href="/Mapas/main/9">
         <g>
             <title>Sandra Sánchez</title>
-            <path id="SandraSanchez" class="oficinasB poppuphelper" d="M 1004.39,584.44
+            <% if(idsvgplanovista == "9") { %>
+                <path id="SandraSanchez" class="svgSeleccionado" d="M 1004.39,584.44
                C 1004.39,584.44 1004.48,679.68 1004.48,679.68
                1004.48,679.68 912.45,679.73 912.45,679.73
                912.45,679.73 912.52,584.42 912.52,584.42
                912.52,584.42 1004.39,584.44 1004.39,584.44 Z" role="img" addinfo="SandraSanchez" />
-            <text addinfo="SandraSanchez" titulo="Sandra Sánchez" class="texto poppuphelper" y="30" x="45" tabindex="9">
-                <textPath xlink:href="#SandraSanchez" startOffset="75%">
-                    Sandra Sánchez
-                </textPath>
-            </text>
-            <desc id="SandraSánchez2"> Oficina de la ingeniera Sandra Sanchez</desc>
+                <% } else { %>
+                    <path id="SandraSanchez" class="oficinasB" d="M 1004.39,584.44
+               C 1004.39,584.44 1004.48,679.68 1004.48,679.68
+               1004.48,679.68 912.45,679.73 912.45,679.73
+               912.45,679.73 912.52,584.42 912.52,584.42
+               912.52,584.42 1004.39,584.44 1004.39,584.44 Z" role="img" addinfo="SandraSanchez" />
+                    <% } %>
+                        <text addinfo="SandraSanchez" titulo="Sandra Sánchez" class="texto poppuphelper" y="30" x="45" tabindex="9">
+                            <textPath xlink:href="#SandraSanchez" startOffset="75%">
+                                Sandra Sánchez
+                            </textPath>
+                        </text>
+                        <desc id="SandraSánchez2"> Oficina de la ingeniera Sandra Sanchez</desc>
         </g>
     </a>
     <g>
